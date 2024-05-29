@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="Q10a-XML.css" type="text/css"?>
+<!DOCTYPE playlist SYSTEM "Q7-DTD.dtd">
+<playlist>
+    <glossaire>
+        <mot def="notre propre musique playlist"/>
+    </glossaire>
+    <morceau>
+        <titre>
+            La campanella in G-sharp minor from grandes
+        </titre>
+        <artiste>Lang Lang</artiste>
+        <note>
+            <glossaire auteur="Apple Music">
+                <mot def="réinterprétation">Cette chanson s'est avérée être la célèbre pièce pour piano de Liszt. Réputée pour être très difficile à jouer, cette version interprétée par Lang Lang est plus agréable.
+                </mot>
+                <mot def="source">Source : apple Music
+                </mot>
+            </glossaire>
+        </note>
+        <dateSortie>2011 </dateSortie>
+        <dureeSec>287</dureeSec>
+        <langue/>
+    </morceau>
+    <morceau>
+        <titre>
+           Bolide allemand
+        </titre>
+        <artiste type="groupe">SDM</artiste>
+        <note>
+            <glossaire>
+                <mot def="Popoulaire">
+                    1er place dans au palmarès français YoutubeMusic
+                </mot>
+            </glossaire>
+        </note>
+        <dateSortie>2022</dateSortie>
+        <dureeSec>194</dureeSec>
+        <langue>fran&#231;ais</langue>
+    </morceau>
+    <morceau>
+        <titre>
+            Freedom
+        </titre>
+        <artiste>Anthony Hamilton</artiste>
+        <definition>
+            <glossaire>
+                <mot def="Freedom">"Liberté" en anglais</mot>
+            </glossaire>
+        </definition>
+        <dateSortie>2012</dateSortie>
+        <dureeSec>243</dureeSec>
+        <langue>anglais</langue>
+    </morceau>
+</playlist>

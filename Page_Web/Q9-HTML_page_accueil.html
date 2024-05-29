@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>La musique engagée</title>
+	<link rel="stylesheet" type="text/css" href="css/Q10b-HTML_contenu_pages.css" />
+	<link rel="stylesheet" type="text/css" href="css/Q10b-HTML_structure_generale.css" />
+
+</head>
+
+<body>
+
+	<!--Haut de page-->
+	<div id="header">
+		<img class="logo" src="img/logo.png" alt="Logo" />
+	</div>
+
+	<!--Menu de navigation-->
+	<div id="menu-nav">
+		<ul>
+			<li class="button">
+				<a class="active" href="#">
+					<img class="image" src="img/accueil.png" alt="logo accueil" />
+				</a>
+			</li>
+			<li class="button">
+				<a href="Q9-HTML_artistes.html">
+					Artistes
+				</a>
+			</li>
+			<li class="button">
+				<a href="Q9-HTML_rendus.html">
+					XML
+				</a>
+			</li>
+			<li class="button">
+				<a href="Q9-HTML_contact.html">
+					Contact
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<!--Contenu-->
+	<div id="content">
+		<h2 class="intro">Bienvenue sur notre site web parlant de la musique en lien avec le Développement Durable</h2>
+		<p>Pour notre projet de DSB, nous avons choisi de travailler sur le thème de la musique. Cela peut être
+			surprenant mais la musique peut aussi être liée au Développement Durable. Que ce soit dans les thèmes
+			abordés par les paroles ou dans les engagements des artistes, le domaine de la musique est lié aux
+			problématiques environnementales et sociales. Nous avons donc cherché à mettre en valeur ces élements avec
+			notre base de données.</p>
+		<p>Commençons pas présenter notre MCD (Modèle Conceptuel de Données) :</p>
+		<table>
+			<tr>
+				<td><img class="mcd" src="img/mcd.png" alt="MCD"></img></td>
+				<td>
+					<p class="mcd"><strong>Nous avons choisi de centrer notre MCD autour de 2 entités principales : les
+							GROUPES et les MORCEAUX.</strong><br />Un groupe interprète un ou plusieurs morceaux. Un
+						morceau peut faire partie d'un album, qui est produit par un label. Chaque morceau peut aussi
+						avoir un ou plusieurs sujets en lien avec le développement durable.<br />Une groupe est composé
+						d'un ou plusieurs artistes. Chaque groupe peut avoir participé à un évenement (ou plusieurs),
+						qui a pu mettre en place des actions en lien avec le développement durable. Chaque groupe peut
+						aussi être engagé auprès d'un type d'engagement particulier (ou plusieurs).<br />Pour simplifier
+						la représentation, nous avons pris la décision de représenter un artiste solo comme un groupe à
+						un seul membre. Ainsi l'entité ARTISTE donne l'état civil des membres d'un groupe.<br />Une
+						autre décision de notre part a été de considérer qu'un morceau ne peut appartenir qu'à un seul
+						album au plus. De plus, un single ne fait partie d'aucun album.<br /><br />Vous trouverez dans
+						l'onglet <em>Artistes</em> un exemple d'interprétation de notre base de données. Toutes les
+						données utilisées ont été extraites de la base de données de la partie 1 du projet.</p>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!--Pied de page-->
+	<div id="footer">
+		<p>
+			Copyright &copy; DSB - 2023 - All right reserved
+		</p>
+	</div>
+
+</body>
+
+</html>

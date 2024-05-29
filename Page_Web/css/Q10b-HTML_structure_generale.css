@@ -1,0 +1,75 @@
+div#header{
+  background-color: #F4F4F4;
+}
+
+div#header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding : 10px;
+}
+
+div#menu-nav{
+  background-color: #65C3D4;
+  padding: 1px;
+  position: relative;
+}
+div#menu-nav ul{
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+div#menu-nav ul li.button{
+  display: inline-block;
+}
+
+div#menu-nav ul li.button a{
+  color: #fff;
+  text-decoration: none;
+  background-color: #65C3D4;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+div#menu-nav ul li.button:hover a{
+  color: #65C3D4;
+  background-color: #fff;
+  transition: 0.5s ;
+}
+
+div#menu-nav ul li.button a.active{
+  color: #fff;
+  background-color: #17ADC8;
+}
+
+div#footer{
+  background-color: #65C3D4;
+  color: white;
+}
+
+div#menu-nav img{
+  width : 22px;
+  height : 22px;
+}
+
+
+div#menu-nav ul li.button:first-child{
+  float:left;
+  padding-left: 10px;
+}
+
+li.button:first-child a img{
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+
+li.button:first-child:hover a img.image{
+  filter: invert(73%) sepia(73%) saturate(324%) hue-rotate(149deg) brightness(87%) contrast(91%);
+}
+
+div#menu-nav ul li.button:hover a{
+  color: #65C3D4;
+  background-color: #fff;
+  transition: 0.5s ;
+}

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>La musique engagée</title>
+	<link rel="stylesheet" type="text/css" href="css/Q10b-HTML_contenu_pages.css" />
+	<link rel="stylesheet" type="text/css" href="css/Q10b-HTML_structure_generale.css" />
+
+</head>
+
+<body>
+
+	<!--Haut de page-->
+	<div id="header">
+		<img class="logo" src="img/logo.png" alt="Logo" />
+	</div>
+
+	<!--Menu de navigation-->
+	<div id="menu-nav">
+		<ul>
+			<li class="button">
+				<a href="Q9-HTML_page_accueil.html">
+					<img class="image" src="img/accueil.png" alt="logo accueil" />
+				</a>
+			</li>
+			<li class="button">
+				<a href="Q9-HTML_artistes.html">
+					Artistes
+				</a>
+			</li>
+			<li class="button">
+				<a class="active" href="#">
+					XML
+				</a>
+			</li>
+			<li class="button">
+				<a href="Q9-HTML_contact.html">
+					Contact
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<!--Content-->
+	<!-- <div id="leftside"></div>
+	<div id="rightside"></div> -->
+	<div id="content">
+		<h2 class="intro">Vous trouverez sur cette page tous nos résultats de la partie 2 du projet</h2>
+		<div class="bloc">
+			<div class="titrebloc">
+				<h3>Document DTD</h3>
+			</div>
+			<div class="liens">
+				<div class="lien"><a href="../Q7-DTD.dtd">Q7-DTD.dtd</a></div>
+			</div>
+		</div>
+		<div class="bloc">
+			<div class="titrebloc">
+				<h3>Documents XML</h3>
+			</div>
+			<div class="liens">
+				<a href="" class="lien">Q8a-XML.xml</a>
+				<a href="../Q8b-XML.xml" class="lien">Q8b-XML.xml</a>
+			</div>
+		</div>
+		<div class="bloc">
+			<div class="titrebloc">
+				<h3>Requêtes XPath</h3>
+			</div>
+
+			<div class="requete">
+				<p>Pour les documents XML respectant la DTD en 7 : fournir les contenus des éléments glossaire</p>
+				<img src="" alt="résultat de la requête a sur le document Q8b-XML" />
+				<code class="legende">$x("//glossaire/*")</code>
+				<p class="legende">Résultat du document <em>Q8b-XML</em></p>
+			</div>
+			<div class="requete">
+				<p>Pour les documents XML respectant la DTD en 7 : fournir le premier élément glossaire</p>
+				<img src="" alt="résultat de la requête b sur le document Q8b-XML" />
+				<code class="legende">$x("(//glossaire)[1]")</code>
+				<p class="legende">Résultat du document <em>Q8b-XML</em></p>
+			</div>
+			<div class="requete">
+				<p>Pour les documents XML respectant la DTD en 7 : fournir les éléments glossaire n’ayant pas d’attribut
+					auteur</p>
+				<img src="" alt="résultat de la requête c sur le document Q8b-XML" />
+				<code class="legende">$x("//glossaire[not(@auteur)]")</code>
+				<p class="legende">Résultat du document <em>Q8b-XML</em></p>
+			</div>
+			<div class="requete">
+				<p>Pour vos documents XHTML : fournir les valeurs des attributs href</p>
+				<img src="" alt="résultat de la requête d sur la page Artistes" />
+				<code class="legende">$x("//@href")</code>
+				<p class="legende">Résultat de la page <em>Artistes</em></p>
+			</div>
+			<div class="requete">
+				<p>Pour vos documents XHTML : compter le nombre d’images dans un document XHTML</p>
+				<img src="" alt="résultat de la requête e sur la page Artistes" />
+				<code class="legende">$x("count(//img)")</code>
+				<p class="legende">Résultat de la page <em>Artistes</em></p>
+			</div>
+		</div>
+		<div class="bloc">
+			<div class="titrebloc">
+				<h3>Liens des sites de validation</h3>
+			</div>
+			<div class="liens">
+				<div class="lien"><a href="http://validator.w3.org/#validate_by_upload+with_options">XHML</a></div>
+				<div class="lien"><a href="https://jigsaw.w3.org/css-validator/#validate_by_upload">CSS</a></div>
+			</div>
+		</div>
+	</div>
+
+	<!--Pied de page-->
+	<div id="footer">
+		<p>
+			Copyright &copy; DSB - 2023 - All right reserved
+		</p>
+	</div>
+
+</body>
+
+</html>

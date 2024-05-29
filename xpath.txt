@@ -1,0 +1,19 @@
+Rédigez ces requêtes XPath et les tester (plusieurs méthodes sont possibles) :
+a) pour les documents XML respectant la DTD en 7 : fournir les contenus des éléments <glossaire> ;
+$x("//glossaire/*") 
+
+b) pour les documents XML respectant la DTD en 7 : fournir le premier élément <glossaire> ;
+(//glossaire)[1] 
+$x("(//glossaire)[1]") 
+
+c) pour les documents XML respectant la DTD en 7 : fournir les éléments <glossaire> n’ayant pas d’attribut
+auteur ;
+$x("//glossaire[not(@auteur)]") 
+
+d) pour vos documents XHTML : fournir les valeurs des attributs href ;
+$x("//@href")
+
+e) pour vos documents XHTML : compter le nombre d’images dans un document XHTML
+$x("count(//img)")
+
+

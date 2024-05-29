@@ -1,0 +1,30 @@
+
+  <!ELEMENT  playlist (glossaire*, morceau+)>
+
+  <!ELEMENT glossaire (mot)+>
+  <!ATTLIST glossaire auteur CDATA  #IMPLIED>
+
+  <!ELEMENT mot (#PCDATA)>
+  <!ATTLIST mot def CDATA  #REQUIRED>
+
+  <!ELEMENT morceau (titre, artiste+, definition?, note*, dateSortie, dureeSec, langue?)>
+
+  <!ELEMENT titre (#PCDATA)>
+
+  <!ELEMENT artiste (#PCDATA)>
+  <!ATTLIST artiste type (solo|groupe) "solo">
+
+  <!ELEMENT definition (glossaire*)>
+
+  <!ELEMENT note (glossaire*)>
+
+  <!ELEMENT dateSortie (#PCDATA|note)*>
+
+  <!ELEMENT dureeSec (#PCDATA)>
+
+  <!ELEMENT langue (#PCDATA|note)*>
+
+  
+
+
+

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="Q10a-XML.css" type="text/css"?>
+<!DOCTYPE playlist SYSTEM "Q7-DTD.dtd">
+
+<playlist>
+<glossaire><mot def="playlist">Repr&#233;sentation de la table morceau de notre base de donn&#233;es</mot></glossaire>
+    <morceau>
+        <titre>
+            Aux arbres citoyens 
+        </titre>
+        <artiste>Yannick Noah</artiste>
+        <dateSortie>2007
+            <note>
+                <glossaire auteur="Laura">
+                    <mot def="succès">Apr&#232;s sa sortie, la chanson se classe num&#233;ro 1 des ventes en France pendant trois semaines.</mot>
+                    <mot def="source">Source : Wikip&#233;dia</mot>
+                </glossaire>
+            </note>
+        </dateSortie>
+        <dureeSec>195</dureeSec>
+        <langue>fran&#231;ais</langue>
+    </morceau>
+    <morceau>
+        <titre>
+            L'hymne de nos campagnes
+        </titre>
+        <artiste type="groupe">Tryo</artiste>
+        <dateSortie>1998
+            <note>
+                <glossaire>
+                    <mot def="reprise">Cette chanson a &#233;t&#233; reprise par le m&#234;me groupe en 2019, accompagn&#233; de d'autres artistes comme Zaz, Claudio Cap&#233;o ou Vianney.</mot>
+                </glossaire>
+            </note>
+        </dateSortie>
+        <dureeSec>190</dureeSec>
+        <langue>fran&#231;ais</langue>
+    </morceau>
+    <morceau>
+        <titre>
+            When You Gonna Learn
+        </titre>
+        <artiste type="groupe">Jamiroquai</artiste>
+        <definition>
+            <glossaire><mot def="When You Gonna Learn">"Quand tu vas apprendre" en anglais</mot></glossaire>
+        </definition>
+        <dateSortie>1992</dateSortie>
+        <dureeSec>230</dureeSec>
+        <langue>anglais</langue>
+    </morceau>
+    <morceau>
+        <titre>
+            Objectif Terre
+        </titre>
+        <artiste>Ridan</artiste>
+        <dateSortie>2007</dateSortie>
+        <dureeSec>233</dureeSec>
+        <langue>fran&#231;ais</langue>
+    </morceau>
+    <morceau>
+        <titre>
+            Blackened
+        </titre>
+        <artiste type="groupe">Metallica</artiste>
+        <definition>
+            <glossaire><mot def="Blackened">"Noirci" en anglais</mot></glossaire>
+        </definition>
+        <note>
+            <glossaire auteur="Laura">
+                <mot def="explication du titre"> Le titre de l'album est une allusion aux quatre derniers mots du serment d'all&#233;geance au drapeau des &#201;tats-Unis.</mot>
+                <mot def="source">Source : Wikip&#233;dia</mot>
+            </glossaire>
+            <glossaire auteur="Yann">
+                <mot def="interprétation de la chanson">Selon les interpr&#233;tations, la chanson parlerait de la pollution engendr&#233;e par l'homme ou d'une future guerre nucl&#233;aire qui serait responsable de la fin de la vie sur Terre.</mot>
+                <mot def="source">Source : Wikip&#233;dia</mot>
+            </glossaire>
+        </note>
+        <dateSortie>1988</dateSortie>
+        <dureeSec>403</dureeSec>
+        <langue>anglais</langue>
+    </morceau>
+    <morceau>
+        <titre>
+            Overheated
+        </titre>
+        <artiste>Billie Eilish</artiste>
+        <definition>
+            <glossaire><mot def="Overheated">"Surchauff&#233;(e)" en anglais</mot></glossaire>
+        </definition>
+        <dateSortie>2021</dateSortie>
+        <dureeSec>215</dureeSec>
+        <langue>anglais</langue>
+    </morceau>
+    <morceau>
+        <titre>
+            Dream On
+        </titre>
+        <artiste type="groupe">Aerosmith</artiste>
+        <definition>
+            <glossaire><mot def="Dream On">"R&#234;ver" en anglais</mot></glossaire>
+        </definition>  
+        <dateSortie>1973</dateSortie>
+        <dureeSec>268</dureeSec>
+        <langue>anglais</langue>
+    </morceau>
+    <morceau>
+        <titre>
+            Zitti e buoni
+        </titre>
+        <artiste type="groupe">M&#229;neskin</artiste>
+        <definition>
+            <glossaire>
+                <mot def="Zitti e buoni">"Taisez-vous et tenez-vous correctement" en italien</mot>
+            </glossaire>
+        </definition>
+        <dateSortie>2021
+            <note>
+                <glossaire auteur="Laura">
+                    <mot def="contexte">Cette musique a &#233;t&#233; pr&#233;sent&#233;e &#224; l'Eurovision en 2021 et a remport&#233; la premi&#233;re place.</mot>
+                </glossaire>
+            </note>
+        </dateSortie>
+        <dureeSec>192</dureeSec>
+        <langue>italien</langue>
+    </morceau>
+    <morceau>
+        <titre>
+            Au revoir
+        </titre>
+        <artiste>Mark Forster</artiste>
+        <artiste>Sido</artiste>
+        <dateSortie>2014</dateSortie>
+        <dureeSec>202</dureeSec>
+        <langue>allemand
+            <note>
+                <glossaire>
+                    <mot def="explication du titre">Le titre est en fran&#231;ais mais ce sont les deux seuls mots fran&#231;ais dans cette chanson allemande.</mot>
+                </glossaire>
+            </note>
+        </langue>
+    </morceau>
+    <morceau>
+        <titre>
+            L'Odeur de l'Essence
+        </titre>
+        <artiste>Orelsan</artiste>
+        <dateSortie>2021</dateSortie>
+        <dureeSec>282</dureeSec>
+        <langue>fran&#231;ais</langue>
+    </morceau>
+</playlist>
+
+<!--&#233; pour é-->
+<!--&#231; pour ç-->
+<!--&#229; pour a de maneskin-->
+<!--&#224; pour à-->
+<!--&#234; pour ê-->
+<!--&#232; pour è-->
+<!--&#201; pour é maj-->
